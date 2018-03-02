@@ -1,0 +1,23 @@
+{
+  "name": "lyf-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tcly861204/web-components.git",
+  "author": "tcly861204 <tcly861204@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "gulp",
+    "wpk": "webpack --config ./config/webpack.config.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "webpack": "^4.0.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.9"
+  }
+}
